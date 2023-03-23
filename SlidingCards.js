@@ -21,6 +21,7 @@ addEventListener('load', function() {
         leftButton.style.visibility = "hidden"
         console.log(totalCardWidth)
         console.log(windowWidth)
+        console.log(cardsInWindow)
     }
 })
 addEventListener('click', function() {
@@ -50,13 +51,14 @@ rightButton.addEventListener('click', function() {
 })
 
 left1Button.addEventListener('click', function() { 
-    Value += 222;
+    Value += ((Math.floor(cardsInWindow))*cardsWidth);
     cardsContainer.style.left = Value + 'px'
     console.log(Value)
 })
 
 right1Button.addEventListener('click', function() {
-    Value -= (totalCardWidth + cardsMargin - windowWidth);
+
+    Value -= ((Math.floor(cardsInWindow))*cardsWidth);
     cardsContainer.style.left = Value + 'px'
     console.log(Value)
 })

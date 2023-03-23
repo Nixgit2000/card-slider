@@ -1,0 +1,156 @@
+* {
+    caret-color: transparent;
+    user-select: none;
+    overflow-x: hidden;
+}
+
+#card{
+    width: 200px;
+    height: 100px;
+    background-color: grey;
+    border: 1px solid black;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+#card-container {
+    display: inline-flex;
+    position: relative;
+    margin: 10px;
+    left: 0px;
+    border: 1px solid black;
+    transition: 0.2s;
+}
+#card-container-container {
+    transition: 0.2s;
+    width: 99vw;
+    overflow: hidden;
+    border: 1px solid blue;
+}
+#left {
+    position: absolute;
+    top: 59px;
+    left: 6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4vw;
+    max-height: 40px;
+    min-height: 30px;
+    width: 2vw;
+    max-width: 40px;
+    min-width: 30px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    text-shadow: 1px 1px black;
+    z-index: 1000;
+    font-size: 1.5vw;
+    box-shadow: 2px 2px rgba(50, 50, 50, 0.5);
+
+}
+#left:hover {
+    scale: 1.1
+}
+
+#right {
+    position: absolute;
+    top: 59px;
+    left: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4vw;
+    max-height: 40px;
+    min-height: 30px;
+    width: 2vw;
+    max-width: 40px;
+    min-width: 30px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    text-shadow: 1px 1px black;
+    z-index: 1000;
+    font-size: 1.5vw;
+    box-shadow: 2px 2px rgba(50, 50, 50, 0.5);
+}
+
+#right:hover {
+    scale: 1.1
+}
+
+#left1 {
+    position: absolute;
+    top: 59px;
+    left: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4vw;
+    max-height: 40px;
+    min-height: 30px;
+    width: 2vw;
+    max-width: 40px;
+    min-width: 30px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    text-shadow: 1px 1px black;
+    z-index: 1000;
+    font-size: 1.5vw;
+    box-shadow: 2px 2px rgba(50, 50, 50, 0.5);
+
+}
+#left1:hover {
+    scale: 1.1
+}
+
+#right1 {
+    position: absolute;
+    top: 59px;
+    left: 93vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4vw;
+    max-height: 40px;
+    min-height: 30px;
+    width: 2vw;
+    max-width: 40px;
+    min-width: 30px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    text-shadow: 1px 1px black;
+    z-index: 1000;
+    font-size: 1.5vw;
+    box-shadow: 2px 2px rgba(50, 50, 50, 0.5);
+}
+
+#right1:hover {
+    scale: 1.1
+}

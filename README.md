@@ -1,0 +1,1 @@
+This is a card slider. The first commit has a working algorithm to determine screen width as a determinant for when the slider buttons appear/disappear. Slides transition in a delightful side swoop animation. 
